@@ -1,19 +1,22 @@
 #Diving into Java
 
-Create a full stack app from scratch using jQuery and SQL.
+Collection of files generated while learning Java 9, using both a Udemy course (Complete Java Masterclass), [Codecademy - Learn Java](https://www.codecademy.com/learn/learn-java), and personal projects
 
-##Technologies
+#Technologies
 
-Java
+- Java 9
+- IntelliJ IDEA
+- mySQL
 
-##Authors
+#Authors
 
 Amanda Kirchner
 
-##License
+#License
 
 This project is licensed under the MIT License
 
-##Acknowledgments
+#Acknowledgments
 
 [Codecademy - Learn Java](https://www.codecademy.com/learn/learn-java)
+Udemy - Complete Java Masterclass by Goran Lochert
