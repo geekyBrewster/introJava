@@ -54,11 +54,11 @@ public class DataTypes {
 
 
     //CHAR DATA TYPES
-
-
+    char myChar = 'M';
+    char myUnicodeChar = '\u00A9';  //Adds copyright symbol with unicode code
 
     //BOOLEANS
-
+    boolean myBool = true;
 
   }
 }
