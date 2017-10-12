@@ -60,5 +60,11 @@ public class DataTypes {
     //BOOLEANS
     boolean myBool = true;
 
+    //STRINGS
+    String myString = "Hello Darlings";
+    System.out.println("Current string = " + myString);
+    myString = myString + ". How are you today?";   //appends more text to the string
+    System.out.println("Now string = " + myString);
+
   }
 }
