@@ -68,3 +68,37 @@ public class DataTypes {
 
   }
 }
+
+public class Operators {
+  public static void main(String[] args) {
+
+    //Basic Operators
+    int result = 1 + 2;
+    int newResult = 3 - 2;
+    int answer = 5 * 10;
+    int myAnswer = 20 / 5;
+    int remainder = 9 % 4;
+    int upByOne = result++;
+    int downByOne = newResult--;
+    answer += 2;
+    myAnswer -= 5;
+    remainder *= 2;
+
+    //Equality
+    boolean isAlien = false;
+    if (isAlien == true)
+      System.out.println("It is not an alien");
+    else
+      System.out.println("It IS an alien");
+
+
+
+
+
+
+
+
+
+
+  }
+}

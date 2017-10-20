@@ -11,4 +11,4 @@ Collection of files generated while learning Java 9, using both a Udemy course (
 ## Acknowledgments
 
 - [Codecademy - Learn Java](https://www.codecademy.com/learn/learn-java)
-- Udemy - Complete Java Masterclass by Time Buchalka & Goran Lochert
+- Udemy - Complete Java Masterclass by Tim Buchalka & Goran Lochert
