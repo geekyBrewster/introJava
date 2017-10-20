@@ -86,13 +86,44 @@ public class Operators {
 
     //Equality
     boolean isAlien = false;
-    if (isAlien == true)
+    if(isAlien == true)
       System.out.println("It is not an alien");
     else
       System.out.println("It IS an alien");
 
+    //Comparisons
+    int topScore = 80;
+    if(topScore > 100)
+      System.out.println("You got the top score!");
 
+    int secondTopScore = 60;
+    if(topScore > secondTopScore && topScore < 100)
+      System.out.println("Top score is greater than second top score but less than 100");
 
+    if((topScore > secondTopScore) || (topScore > 100))
+      System.out.println("Top score is greater than second top score or top score is greater than 100");
+
+    //turnary Operator
+    boolean isCar = false;
+
+    boolean wasCar = isCar ? true : false;
+    if(wasCar)
+      System.out.println("wasCar is true");
+
+    //Practice
+    //Create a double variable w/ the value 20
+    double num1 = 20;
+    //Create a second double variable w/ value 80
+    double num2 = 80;
+    //Add both numbers and multiply by 25
+    double my_result = (num1 + num2) * 25;
+    //Use the remainder operator to figure out remainder of answer above divided by 40
+    double my_remainder = my_result % 40;
+    //Write an "if" statement that displays message "Total was over the limit" if answer above is equal to 20 or less
+    if(my_remainder <= 20)
+        System.out.println("Total was over the limit.");
+    else
+        System.out.println("Everything is good here.");
 
 
 
