@@ -31,12 +31,14 @@ public class Method_Overloading {
     }
 
     public static double calcFeetAndInchesToCentimeters(double inches) {
-        if (inches >= 0)
-            return 2.54 * (inches);
-        else {
-            System.out.println("Oops. Something went wrong. Invalid number.");
-            return -1;
-        }
+      if (inches >= 0){
+          double feet = (int) inches / 12;
+          double remainingInches = (int) inches % 12;
+          return calcFeetAndInchesToCentimeters(feet, remainingInches);
+      } else {
+          System.out.println("Oops. Something went wrong. Invalid number.");
+          return -1;
+      }
     }
 
 }
